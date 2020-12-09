@@ -36,6 +36,9 @@ class DataTypes
 	 * casts) to any other type. But the programmer can easily write conversion code.Default Value: false
 	 */
 	private boolean b;
+	/*
+	 * The char data type is a single 16-bit Unicode character.
+	 */
 	private char c;
 	/*
 	 * The byte data type is an 8-bit signed two’s complement integer. The byte data
@@ -59,6 +62,10 @@ class DataTypes
 	 * floating-point numbers.
 	 */
 	private float f;
+	/*
+	 * The double data type is a double-precision 64-bit IEEE 754 floating-point.
+	 * For decimal values, this data type is generally the default choice.
+	 */
 	private double d;
 	
 	
