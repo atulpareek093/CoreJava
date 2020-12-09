@@ -52,7 +52,7 @@ class DataTypes
 	/* It is a 4 byte ( 32 bits ) signed two’s complement integer.    -2, 147, 483, 648 to 2, 147, 483, 647 (inclusive)*/
 	private int i;
 	/* he long data type is a 64-bit two’s complement integer. -9, 223, 372, 036, 854, 775, 808  to  9, 223, 372, 036, 854, 775, 807 (inclusive)*/
-	private long li;
+	private long li; 
 	/*
 	 * he float data type is a single-precision 32-bit IEEE 754 floating-point. Use
 	 * a float (instead of double) if you need to save memory in large arrays of
