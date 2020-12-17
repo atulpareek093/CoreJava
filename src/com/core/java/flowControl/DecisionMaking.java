@@ -11,7 +11,7 @@ public class DecisionMaking {
 
 		IfDemo demo = new IfDemo();
 		//demo.ifTest();
-		demo.elseIf();
+		demo.switchCase();
 
 	}
 
@@ -80,6 +80,74 @@ class IfDemo {
 	  
 	        System.out.println("Outside if-else-if"); 
 	   
+	}
+	
+	public void switchCase()
+	{
+		int operation = 1;
+		int number = 10;
+
+		switch (operation) {
+		    case 1:
+		        number = number + 10;
+		    
+		    case 2:
+		        number = number - 4;
+		       
+		    case 3:
+		    	
+		        number = number / 3;
+		        
+		    case 4:
+		        number = number * 10;
+		        break;
+		        default:
+		        number = number * 2;
+		        break;
+		          
+		}
+		System.out.println(number);
+	}
+	
+	
+	public void breakDemo()
+	{
+		for (int i = 0; i < 10; i++) 
+		{
+		System.out.println(i);
+		if(i==3)
+		{
+			break;
+		}
+		}
+	}
+	
+	public void continueDemo()
+	{
+		for (int i = 0; i < 10; i++) 
+		{
+		
+		if(i==3)
+		{
+			continue;
+		}
+		System.out.println(i);
+		}
+	}
+	
+	public void returnDemo()
+	{
+		for (int i = 0; i < 10; i++) 
+		{
+		
+		if(i==3)
+		{
+			return;
+		}
+		System.out.println(i);
+		}
+		
+		 
 	}
 	
 }
