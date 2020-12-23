@@ -1,4 +1,4 @@
-package com.core.java.flowControl;
+package com.core.java.basic.flowControl;
 
 public class Loop {
 	public static void main(String args[])

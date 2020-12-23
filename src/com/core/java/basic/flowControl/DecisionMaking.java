@@ -1,4 +1,4 @@
-package com.core.java.flowControl;
+package com.core.java.basic.flowControl;
 
 import java.util.Scanner;
 
